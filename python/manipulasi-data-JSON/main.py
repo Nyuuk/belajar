@@ -62,15 +62,15 @@ if a.isdigit() == True:
             if number <= total:
                 namdep = input('Input nama depan ? ')
                 nambel = input('Input nama belakang ? ')
-                lok = input('Input lokasi ? ')
                 umur = input('Input Umur ? ')
-                if namdep is not None:
+                lok = input('Input lokasi ? ')
+                if(len(namdep)):
                     data[number]['namadep'] = namdep
-                if nambel is not None:
+                if(len(nambel)):
                     data[number]['namabel'] = nambel
-                if lok is not None:
+                if(len(lok)):
                     data[number]['lokasi'] = lok
-                if umur is not None:
+                if(len(umur)):
                     data[number]['umur'] = umur
                 js.seek(0)
                 json.dump(data, js, indent=4)
