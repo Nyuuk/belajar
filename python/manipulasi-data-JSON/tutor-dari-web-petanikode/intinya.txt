@@ -1,0 +1,5 @@
+Langkah yang harus kamu ingat..
+
+1. Baca atau buka file JSON (bisa dari file dan server)
+2. Parsing
+3. Proses data (print,simpan, edit, dll)
