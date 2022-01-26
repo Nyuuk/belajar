@@ -6,4 +6,4 @@
    <dt>--> Episode [manipulasi-data-JSON]
    <dd>|--> Proses data json dengan Python <a href="https://www.petanikode.com/python-json">PetaniKode</a>
    <dd>|--> Delete an element in JSON object <a href="https://stackoverflow.com/questions/36606930/delete-an-element-in-a-json-object">StackOverflow</a>
-   <dd>|--> Check if a value is zero or not <a href="https://www.kite.com/python/answers/how-to-check-if-a-value-is-zero-or-not-none-in-python#:~:text=Use%20the%20syntax%20is%20not,check%20if%20var%20is%20zero.">kite.com</a>
+   <dd>|--> Check if a string is empty or not <a href="https://appdividend.com/2020/11/17/how-to-check-if-string-is-empty-or-not-in-python/#:~:text=To%20check%20an%20empty%20string%20in%20Python%2C%20use%20the%20len,it%20is%20an%20empty%20string.">appdividend</a>
