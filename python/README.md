@@ -12,4 +12,5 @@
 <dt>--> python-if-conditional-expressions <a href="https://note.nkmk.me/en/python-if-conditional-expressions/">note.nkmk.me</a></dt>
   <dt>--> manipulasi-string</dt>
   <dd>|--><a href="https://jagongoding.com/python/menengah/manipulasi-string-part-1/">jagongoding-episode-1</a></dd>
+  <dt>--> Python Try Except <a href="https://www.w3schools.com/python/python_try_except.asp">w3school</a></dt>
 </dl>
