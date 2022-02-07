@@ -13,4 +13,5 @@
   <dt>--> manipulasi-string</dt>
   <dd>|--><a href="https://jagongoding.com/python/menengah/manipulasi-string-part-1/">jagongoding-episode-1</a></dd>
   <dt>--> Python Try Except <a href="https://www.w3schools.com/python/python_try_except.asp">w3school</a></dt>
+  <dt>--> Remove-Newline-From-String <a href="https://www.delftstack.com/howto/python/python-remove-newline-from-string/#use-the-replace-function-to-remove-a-newline-character-from-the-string-in-python">delftstack</a></dt>
 </dl>
