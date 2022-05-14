@@ -1,0 +1,42 @@
+{
+  "token-api": [
+    {
+      "name": "example",
+      "token": "like-you"
+    }
+  ],
+  "user-telegram": [
+    {
+      "user_id": 321,
+      "username": "nyuuk",
+      "saldo": 0,
+      "status": "user"
+    },
+    {
+      "user_id": 123,
+      "username": "kinyuk",
+      "saldo": 200,
+      "status": "user"
+    }
+  ],
+  "request-saldo": [],
+  "layanan": {
+    "vpnremote": [
+      {
+        "created_by": [
+          "user-telegram/user-web-dll",
+          123
+        ],
+        "perpanjang": true,
+        "uss_vpn": "uss_vpn",
+        "pw_vpn": "test",
+        "fwd_1": 101,
+        "fwd_2": 123,
+        "fwd_3": 12,
+        "exp": "2022-01-02 12:00",
+        "iplocal": "10.10.0.2",
+        "crated_in": "2022-03-22 17:10"
+      }
+    ]
+  }
+}
