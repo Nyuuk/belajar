@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    /* background-color: #95E1D3; */
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-family: courier;
+    font-weight: bold;
+    float: left;
+    color: #B83B5E;
+    padding: 5px 0px 3px 0px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #EAFFD0;
+    z-index: 1;
+    /* border-bottom: 1px solid; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 16px 3px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #F08A5D;
+}
+
+section {
+    /* background-color: #6A2C70; */
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    /* border: 1px solid; */
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #F38181;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #B83B5E;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 40px;
+}
+
+a.tbl-ungu {
+    font-weight: bold;
+    background: #6A2C70;
+    border-radius: 20px;
+    margin: 30%;
+    padding: 8px 20px 8px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a.tbl-ungu:hover {
+    background: #B83B5E;
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    font-weight: bold;
+    background: #3F72AF;
+    border-radius: 20px;
+    margin: 30%;
+    padding: 8px 20px 8px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a.tbl-biru:hover {
+    background: #B83B5E;
+    text-decoration: none;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 50%;
+    /* margin-left: 25%; */
+}
