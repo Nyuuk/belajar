@@ -52,6 +52,9 @@ Merename column
 Menambahkan column ke table
 `ALTER TABLE tb_name ADD column_name column_definition;`
 
+Menghapus column di table
+
+`ALTER TABLE tb_name DROP COLUMN column_name;`
 ### Commands Koneksi
 Melihat Koneksi
 `SELECT pid,usename,query FROM pg_stat_activity;`
