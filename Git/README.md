@@ -1,5 +1,6 @@
 ### Membatalkan Revisi
-Jika revisi kita blum __stagged__ ataupun __commited__, kita bisa mengembalikan menggunakan perintah `git checkout namafile`.<br>
+[Link Tutorial](https://www.petanikode.com/git-revert/) <br>
+Jika revisi kita blum ___stagged___ ataupun ___commited___, kita bisa mengembalikan menggunakan perintah `git checkout namafile`.<br>
 contoh:<br>
 Sebelum di ubah:
 ```python
