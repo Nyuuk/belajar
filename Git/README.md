@@ -12,3 +12,13 @@ print("Hello adnan")
 ```
 mengembalikannya dengan cara
 `git checkout namafile`
+
+### Branch atau per-Cabangan
+Membuat cabang baru
+```bash
+git branch nama-cabang
+```
+Pindah cabang
+```bash
+git checkout nama-cabang
+```
