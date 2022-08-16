@@ -44,6 +44,8 @@ Rename database
 Pindah database
 `\c nama_database`
 
+### Timezone
+
 Ganti timezone permanent 
 `ALTER DATABASE postgres SET timezone TO 'Asia/Jakarta';`,
 Command ini harus di lakukan di database lain
