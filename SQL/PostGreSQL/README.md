@@ -1,4 +1,35 @@
 # PostgreSQL
+## Installasi sebagai server
+ini installasi di debian, untuk distro lain sesuaikan saja
+```bash
+nyuuk@debian:~$ sudo apt install postgresql -y
+nyuuk@debian:~$ sudo -u postgres psql template1
+```
+menambahkan password pada user postgres
+```psql
+psql (12.11 (Ubuntu 12.11-0ubuntu0.20.04.1))
+Type "help" for help.
+
+template1=# ALTER USER postgres with encrypted password 'inipassword';
+template1=# quit
+```
+Edit pg_hba.conf
+```bash
+nyuuk@debian:~$ sudo vim /etc/postgresql/9.1/main/pg_hba.conf # editor bisa menggunakan yg lain, contoh nano
+```
+ganti pada bagian ini
+```conf
+local   all             postgres                                md5
+
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# "local" is for Unix domain socket connections only
+local   all             all                                     md5
+# IPv4 local connections:
+host    all             all             0.0.0.0/0            md5
+```
+pada bagian `peer` di ganti dengan `md5`,
+dan pada IPv4 connection tambahkan `host    all             all             0.0.0.0/0            md5`
 
 ### Commands Database
 List Database
