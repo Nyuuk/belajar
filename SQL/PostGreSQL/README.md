@@ -13,6 +13,10 @@ Type "help" for help.
 template1=# ALTER USER postgres with encrypted password 'inipassword';
 template1=# quit
 ```
+Grant all permission to database
+```
+grant all privileges on database mydb to myuser;
+```
 Edit pg_hba.conf
 ```bash
 nyuuk@debian:~$ sudo vim /etc/postgresql/9.1/main/pg_hba.conf # editor bisa menggunakan yg lain, contoh nano
