@@ -34,6 +34,16 @@ host    all             all             0.0.0.0/0            md5
 ```
 pada bagian `peer` di ganti dengan `md5`,
 dan pada IPv4 connection tambahkan `host    all             all             0.0.0.0/0            md5`
+```
+```
+merubah koneksi ke all (0.0.0.0/0)
+```bash
+amlogic:~:# find / -name "postgresql.conf"
+/etc/postgresql/12/main/postgresql.conf
+amlogic:~:# vim /etc/postgresql/12/main/postgresql.conf
+###
+listen_addresses = "*"
+```
 
 ### Commands Database
 List Database
